@@ -7,17 +7,4 @@
     }
   }
   
-  const mySneaker = new Sneaker(120);
-  console.log(mySneaker.isExpensive());*/
 
-  class FavoriteNumber {
-    isSeven() {
-      return this.number == 7;
-    }
-    isEven() {
-      return this.number % 2 === 0;
-    }
-    isOdd() {
-      return this.number % 2 === 1;
-    }
-  }
